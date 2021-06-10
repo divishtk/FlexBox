@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+      background-color: rgb(244, 237, 250);
+      width: 100%;
+      height: 100vh;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      flex-wrap: wrap;
+      
+    }
+
+   
+    .card {
+      width: 250px;
+      height: 390px;
+      border: 2px solid rgb(235, 50, 241);
+      /* box-shadow: offset-x offset-y blur-radius color; */
+
+      box-shadow: 2px 5px 8px 2px rgb(192, 105, 250);
+      border-top-left-radius: 20px;
+    }
+
+    .card img {
+      width: 11%;
+      height: 17%;
+      position: absolute;
+      margin: 10px 36px;
+    }
+
+    .card h2 {
+      color: rgb(97, 8, 180);
+    
+      text-align: center;
+  
+      
+    }
+
+    #card1 h2{
+        position: absolute;
+        top: 350px;
+      left: 2rem;
+
+
+    }
+
+
+    #card2 h2{
+        position: absolute;
+        top: 350px;
+      left: 30rem;
+
+
+    }
+
+    #card3 h2{
+        position: absolute;
+        top: 350px;
+      left: 53.33rem;
+
+
+    }
+
+    #card4 h2{
+        position: absolute;
+        top: 350px;
+      left: 80rem;
+
+
+    }
+
+    .card p {
+      top: 200px;
+      left: 0;
+      position: relative;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+
+    .card button
+    {
+    height:2rem ;
+    width: 5.1rem;
+    position: absolute;
+    border: none;
+    background-color: rgb(234, 94, 247);
+    border-radius: 2px;
+    top:520px;
+    margin-left: 4.2rem;
+
+
+    }
+
+  </style>
+  <body>
+    <div class="container">
+      <div class="card" id="card1">
+        <img src="angular.png" />
+        <h2>Angular JS</h2>
+        <p>
+          This a JS library for single page web applications. AngularJS is a
+          toolset for building the framework most suited to your application
+          development.
+        </p>
+        <button class="btn">Submit</button>
+      </div>
+
+
+
+      <div class="card" id="card2">
+        <img src="angular.png" />
+        <h2>NODE JS</h2>
+        <p>
+          This a JS library for single page web applications. AngularJS is a
+          toolset for building the framework most suited to your application
+          development.
+        </p>
+        <button class="btn">Submit</button>
+      </div>
+
+
+      <div class="card" id="card3">
+        <img src="angular.png" />
+        <h2>DOCKER</h2>
+        <p>
+          This a JS library for single page web applications. AngularJS is a
+          toolset for building the framework most suited to your application
+          development.
+        </p>
+        <button class="btn">Submit</button>
+      </div>
+
+
+      <div class="card" id="card4">
+        <img src="angular.png" />
+        <h2>REACT</h2>
+        <p>
+          This a JS library for single page web applications. AngularJS is a
+          toolset for building the framework most suited to your application
+          development.
+        </p>
+        <button class="btn">Submit</button>
+      </div>
+
+
+     
+      
+    </div>
+  </body>
+</html>
